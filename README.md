@@ -26,7 +26,8 @@ MooScrollDepth has three options with which you can customize its behavior: debu
 
 	options: {
 		debug_mode: false,				// If set to true, the events will be reported to the console and not sent to Analytics (only works on newish browsers that support console)
-		marks: [0.25, 0.50, 0.75, 1]	// The percentages at which to fire an event
+		marks: [0.25, 0.50, 0.75, 1],	// The percentages at which to fire an event
+		action_label: 'Percentage'		// The 'action' label to apply to Analytics events
 	}
 	
 So for example if you want to report scrolls at every 10% you can init with the following code:
