@@ -8,11 +8,10 @@ authors:
 - Aron Budinszky <aron@outlast.hu>
 
 requires:
-- core/1.2.0: '*'
+- core/1.2.4: '*'
 
-provides:
-- MooScrollDepth
-
+provides: [MooScrollDepth]
+...
 */
 var MooScrollDepth = new Class({
 	
