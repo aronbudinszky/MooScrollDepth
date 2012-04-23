@@ -1,7 +1,7 @@
 MooScrollDepth
 ==============
 
-*A Mootools plugin for sending scroll-depth data to Google Analytics.*
+A Mootools plugin for sending scroll-depth data to Google Analytics.
 
 MooScrollDepth uses Google Analytics events to help you generate nice reports of how far users scrolled down within the page.
 
