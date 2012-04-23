@@ -1,6 +1,6 @@
 /*
 ---
-description: A Mootools plugin for sending scroll-depth data to Google Analytics. Works with MooTools 1.2.x+.
+description: A Mootools plugin for sending scroll-depth data to Google Analytics. Works with MooTools 1.2.x - 1.4.x.
 
 license: MIT-style
 
@@ -8,9 +8,10 @@ authors:
 - Aron Budinszky <aron@outlast.hu>
 
 requires:
-- core/1.4.4
+- core/1.2.0: '*'
 
-provides: [MooScrollDepth]
+provides:
+- MooScrollDepth
 
 */
 var MooScrollDepth = new Class({
