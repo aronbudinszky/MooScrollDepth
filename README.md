@@ -22,7 +22,7 @@ This will initialize the script with the default options.
 Options
 -------
 
-MooScrollDepth has two options with which you can customize its behavior: debug_mode and marks.
+MooScrollDepth has three options with which you can customize its behavior: debug_mode, marks, and action_label.
 
 	options: {
 		debug_mode: false,				// If set to true, the events will be reported to the console and not sent to Analytics (only works on newish browsers that support console)
